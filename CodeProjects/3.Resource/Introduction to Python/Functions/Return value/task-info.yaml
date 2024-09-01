@@ -1,0 +1,57 @@
+type: edu
+files:
+- name: return_keyword.py
+  visible: true
+  placeholders:
+  - offset: 364
+    length: 1
+    placeholder_text: '# Assign an initial value to b'
+    initial_state:
+      length: 30
+      offset: 364
+    initialized_from_dependency: false
+    selected: true
+    status: Solved
+    encrypted_possible_answer: oa+nVSRiKi7L3SNrfCrSCA==
+  - offset: 436
+    length: 44
+    placeholder_text: '# Update some value with a sum'
+    initial_state:
+      length: 30
+      offset: 465
+    initialized_from_dependency: false
+    selected: true
+    status: Solved
+    encrypted_possible_answer: UUz/h4X4hbGpqhxYsJ5QkA==
+  - offset: 501
+    length: 36
+    placeholder_text: '# Restore a variable from the temp'
+    initial_state:
+      length: 34
+      offset: 504
+    initialized_from_dependency: false
+    selected: true
+    status: Solved
+    encrypted_possible_answer: Y9LEZ7DJb97notPBYfbSMQ==
+  - offset: 542
+    length: 13
+    placeholder_text: '# here we need to return the result to the caller'
+    initial_state:
+      length: 49
+      offset: 543
+    initialized_from_dependency: false
+    selected: true
+    status: Solved
+    encrypted_possible_answer: jxhHjZPxFXG0RbOH/eyU/A==
+  encrypted_text: sPGog23gkjnNjVOI79N+wgNYaQyh1Fbs3NVmggcrEJ55EcyjOahXjDdH3GnszSxesDg8dKIPxCrgxkeFMKBXF5nk8dUdW+zc8cSISq1IBBbLftdLQVHsCsRVKSCbBYq9OjQcsTFz9sT3ORRGBXqSb5pxiuDLynYX7yo0NAXeYJYM3Uc2hWZBOEWkly+vIbMmFnj0/bXWj3eE3e8FIwlm9s7hAkOCkLdidK5N2PzCYVg2yWenfEGWbU7KI8k4n7rAoO7uWhk77WyrKgbKZePmzQMptcFS9MLThQEbYkBqLZYHlUWDR+I2SFnJvbcgDZQLHRVNaOel1CoaaUjSowVsatPr5EmXMydK/Lo4+ZF1RTmCCKbcExFb6tQDn9UsaOeC19KdEEsWZenxDs21esAdj4XUP19N1RdYc+2rX82pf4yCBzR3jP8gzsURtIB3aMflgOm1V7WPnUALHgnJ8pEWTdtlJQlGTcuCXjJ9L0Qy/y9nbD7RPC4/8YHWh8hNzpqR+lKCXUF4WJXItCtGJHT5pcdVkedWdCF8hfs89r6BAE0HwDFE7REZtT+W/7y9RaCRyuQOaV3e7TrZHyTTQ1E4dfE9jC+pM+HdnTpa86mrIlKR6+FeLxQurBp/ymTntYARqtRC9k1+OF0HusERzmAir9/6OPDkZyoCH+WdoqWYWA09F7bK0RhGJ9vObyq9wJn28ictUDPHE+qWVAN+dWN6wCfcvjCiHdjgUIBkEDNvy0G5EFNzSXyZ+Q211PjnoXIRIFvq1PBi5AyKnK4TMuCbL2vPb6oTpt8Qhmad/kWP57cqHWfflHtSEQFRDb/0bfUh
+  learner_created: false
+- name: tests/test_task.py
+  visible: false
+  encrypted_text: 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
+  learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Functions+/+Return+value
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 02 Jun 2022 01:54:12 UTC
+record: -1

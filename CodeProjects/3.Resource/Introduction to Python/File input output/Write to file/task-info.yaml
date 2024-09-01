@@ -1,0 +1,56 @@
+type: edu
+files:
+- name: output.txt
+  visible: true
+  encrypted_text: EKVjH5I+V0GVfcB1u4fUmENJrujGEkJz2mjxVaz94V4=
+  learner_created: false
+- name: write_to_file.py
+  visible: true
+  placeholders:
+  - offset: 74
+    length: 3
+    placeholder_text: add modifier
+    initial_state:
+      length: 12
+      offset: 74
+    initialized_from_dependency: false
+    selected: true
+    status: Solved
+    encrypted_possible_answer: uBwPgdmXCSa+XJi5v3PN1A==
+  - offset: 122
+    length: 87
+    placeholder_text: '# On a new line in  "output.txt", add all elements from the
+      zoo list, joined by " and "'
+    initial_state:
+      length: 87
+      offset: 98
+    initialized_from_dependency: false
+    selected: true
+    status: Solved
+    encrypted_possible_answer: OLzakA8QjOP1EWk0vEogGlWGwV+nhlha4jUWFJQv84uv12t5XCCaevGVQN+HuR3A
+  - offset: 241
+    length: 38
+    placeholder_text: '# Add the number to the output as well'
+    initial_state:
+      length: 38
+      offset: 190
+    initialized_from_dependency: false
+    selected: false
+    status: Solved
+    encrypted_possible_answer: 5cFKv2KKBLK+gKgQkdZiIRMyhPgA7wlilxddQl95UL8=
+  encrypted_text: nI/UXzN97/VDvPYndI+Jk6qLKXmoSj7NR+ZN32ZzG39tx8c1tcLvbPr/+eFZqMKOLT/Fee7BbPxqYrPM/r3ZSWJd0+G3xR4i4PAIoQ0KjakpF16ymj3ggsd2s+O4iVzY/trSHUjRtaj7QLs7/ndpGWeyj3LIeuaLI5WOIwi+3wb+rxaWLqszaYr4Nt7BmhIUKxNmBIn5iBIEBSDR8pqcLVghlESSLmCWKYnKzUnIJ2msu2UiRKIaYFZHS2+OyDoyWjahXkUYAejsccIw56KdimKJof8TOZnSE/I2BoF6pVUPIo78ZQz3Ez29L2cEJhpz
+  learner_created: false
+- name: tests/__init__.py
+  visible: false
+  encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+  learner_created: false
+- name: tests/test_task.py
+  visible: false
+  encrypted_text: XIlL2u+4gqNTqO7La77YdbPgcXd8ckxCW+Nevva3fTN6FHOB2DCda936XLe1bCr2sqLQz+sdp1DWzdnCL8dcwUYiZ6zsjlLHiYAJodEU3fSG0RO4IhxBIXOixOnjpfB4SeyP+pE8uQEYUMGIIR0HOQlYJbef5r+c7CV1X1B/V3Iue2la0VEmZHpFJxg+qTKh1AMCwoiQY01weUlMxww9m8oeW+4sL1TYoZMJP7IDMEMOlBI1EvfP6e1+/bQllcVnSWz54pZwAY7YxDHvNBCRbuRyv0gkNOi2HHKVzhq4rSVZKQn4xmA7bMdX3d2PcWKGsr6clZ6pBkmTT61s80DTv8OV2SHs8mkfij788MLly8jOY9s4fNE2xHkPr0/H7j4XqYt3MoPkP4YAVLFL+Ep6oyrgHDl+XadOQTTMcYHtQEnGJiBJioBX7w6hhn8HcJK08IT/0pVGcwfUvqT6rDyWy53scVx8wags8zTIvdrYtdQpkQCc+YsbT3YDSwLkZG+7MBMXh1Q75Tc8XgHJxj+RI1WRRTZFkqX29WNGvImjpxXnFDhy8imFduHmu/KNi8iZnjZI9T2nEfyRcb+ZJRzFET66nEbIh8WcUO8QEgLTtrll9FIT1edWMqJtvG0kUw9rw4uQncdDVup0IR6YjmraTTrzozSv3WOzB2w3MuCadwJ7uOoVcOfGY/WmnHAJ9SAZZ6SDFyACTfx+DfxGA/caDEUky7vl4G0XcgVJf6Rct/H5m91jijp+SlOawqFmbM6bcpGUYeIY+5bETaef/VxRrx1bjfkanVCMN2ICaArHZIeVMj1NQXhMUN/9/o4DvM4vM4DRfilT82OQ04ugoLkjSzMAQUV3QBhh/GRBwCVD1v3fBIlbw31o0t+BtFece6T3PGsGzyex0d/TPTFH+Eajf1D+lrCHsrUMsrjWKQYtLEKkZIYUsUYgJLYd1YcvfdD6rf57D6lYCMvJ4MkmjMK0wOnuAZnn8nakpG1xhpD3f5ZmlX3tOGdMPf+v6xMNUwwvr8VunA9LX3ovxF/Vjbp1ohKjaU9RUR5SFSqNBAr1En7hmHrgjNZhTeJuG6zZFLd/6gxF8jFdeJBqthpnEBZCbddofvRbiJyZsEWnd8eQNZtfc90n094/beM0bK1lX6VD3/FR93NA0yzB9IFfA2vbQ4HyL8FO0RE6LwDRNdQRDQl/8vCnSr51wQhYcBsna+AiH7gtmk2XF9uGnj2jx26noSGYHRFH00Eo/JdLJ3z1c7ztnLo1U2T24Qf1FfnhfWrnP/SjWZ1njtvT/+woeUGtnRTEIsN7kYC/q2686d445Dpx6NinVNyf3pb8qP08NF0JepLHT66za79dbQ2xiIWj58bMYGawAD4J1QxYGaxZV0ScWJWSzYaKjFoBOAPycFHsnb2lLETAvIf2nGNwByyNAjtUHe8UzQCGyT8gZ/aOOuM=
+  learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=File+Input+Output+/+Write+to+file
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 27 Jun 2022 11:20:27 UTC
+record: -1

@@ -1,0 +1,72 @@
+
+
+```markdown
+| Title                       | Hook                 | Body                                                       | Option 1          | Option 2        | Option 3        | Answer                |
+|-----------------------------|----------------------|------------------------------------------------------------|-------------------|-----------------|-----------------|-----------------------|
+| Riddle 1                     | Charging Magic      | I make your phone come to life when you plug me in. What am I? | A Charger          | A Pillow         | A Tree          | A Charger             |
+| Riddle 2                     | Daily Companion     | I have pages but am not a book. I bring the world to your hand. What am I? | A Smartphone      | A Cloud          | A Lamp          | A Smartphone         |
+| Riddle 3                     | Digital Canvas      | I’m a screen, not for a window, but for information's flow. What am I? | A Monitor         | A Painting       | A Door          | A Monitor            |
+| Riddle 4                     | Talking in Code     | I’m a language computers understand, not spoken but written. What am I? | Code              | Spanish          | Whispers        | Code                |
+| Riddle 5                     | Webbed Connection   | I link pages without a chain, connecting information's reign. What am I? | The Internet      | A Spider         | A Phone         | The Internet         |
+| Riddle 6                     | Bit by Bit          | I'm the smallest unit in computing, making up your digital world. What am I? | A Bit             | A Byte           | A Megabyte      | A Bit                |
+| Riddle 7                     | Memory Keeper       | I store what you need, from pictures to thoughts, in my digital hold. What am I? | A Hard Drive      | A Backpack       | A Fridge        | A Hard Drive         |
+| Riddle 8                     | Social Messenger    | I bring messages in a snap, disappearing in a zap. What am I? | Snapchat          | A Messenger      | Smoke Signals   | Snapchat             |
+| Riddle 9                     | Electronic Pet       | I'm a virtual creature, needing no food or shelter. What am I? | A Tamagotchi      | A Goldfish       | A Puppy         | A Tamagotchi         |
+| Riddle 10                    | Capturing Moments   | I freeze time with a click, capturing memories quick. What am I? | A Camera          | A Remote Control | A Clock         | A Camera             |
+| Riddle 11                    | Puzzle Solver        | I'm a search guru, finding answers just for you. What am I? | Google            | A Detective      | A Compass       | Google              |
+| Riddle 12                    | Portable Light      | I brighten your path with a tap, small but lighting the gap. What am I? | A Flashlight      | A Candle         | A Sun           | A Flashlight         |
+| Riddle 13                    | Animated World       | I’m not a movie, but I have scenes. What am I? | A GIF             | A Painting       | A Playground    | A GIF               |
+| Riddle 14                    | E-Reader Companion   | I carry stories, not in paper form, but in a digital norm. What am I? | An E-Reader       | A Bookshelf      | A Library       | An E-Reader          |
+| Riddle 15                    | Virtual Playground  | I’m a place of games, not made of swings and frames. What am I? | A Video Game      | A Playground     | A Movie Theater | A Video Game         |
+| Riddle 16                    | Musical Device       | I'm small and sleek, playing tunes when you seek. What am I? | A Music Player    | A Piano          | A Guitar        | A Music Player       |
+| Riddle 17                    | Information Highway  | I'm a road for data, not made of bricks and mortar. What am I? | The Internet      | A Highway        | A Forest        | The Internet         |
+| Riddle 18                    | Digital Lock         | I keep your secrets with a combination, not a physical location. What am I? | A Password        | A Key            | A Safe          | A Password           |
+| Riddle 19                    | Noise Canceler       | I block out the world with a hum, making silence overcome. What am I? | Noise-Canceling Headphones | A Blanket        | Earplugs        | Noise-Canceling Headphones |
+| Riddle 20                    | Virtual Exploration  | I'm a world inside a screen, where adventures are unforeseen. What am I? | Virtual Reality  | A Treasure Map   | A Board Game    | Virtual Reality      |
+| Riddle 21                    | Connective Threads   | I link you to others with a tap, making communication adapt. What am I? | Social Media      | A String         | A Tapestry      | Social Media         |
+| Riddle 22                    | Electronic Wallet    | I carry no cash, just numbers and data in a flash. What am I? | A Digital Wallet  | A Coin Purse     | A Piggy Bank    | A Digital Wallet     |
+| Riddle 23                    | Information Messenger| I bring news in a second, without using paper reckon. What am I? | Email             | A Carrier Pigeon | A Telegram      | Email               |
+| Riddle 24                    | Portable Office      | I’m a mini workplace, fitting in a briefcase. What am I? | A Laptop          | A Desk           | A File Cabinet  | A Laptop             |
+| Riddle 25                    | Electronic Canvas    | I’m a tablet for creation, replacing paper sensation. What am I? | A Drawing Tablet  | A Canvas         | A Notebook      | A Drawing Tablet     |
+| Riddle 26                    | Digital Assistant    | I answer your questions, no need for human suggestions. What am I? | Siri              | A Butler         | A Teacher       | Siri                |
+| Riddle 27                    | Virtual Marketplace  | I'm an online mall, where goods and services enthrall. What am I? | E-commerce Website | A Supermarket    | A Flea Market   | E-commerce Website   |
+| Riddle 28                    | Digital Identity     | I'm not a card but a unique mark, verifying your online embark. What am I? | Username         | A Passport       | A Library Card  | Username            |
+| Riddle 29                    | App Playground       | I'm a store of apps, not for swings and claps. What am I? | App Store         | A Playground     | A Supermarket   | App Store            |
+| Riddle 30                    | Electronic Recipe    | I hold instructions for meals, without paper or squeals. What am I? | Recipe App        | A Cookbook       | A Chef          | Recipe App          |
+| Riddle 31                    | Digital Timekeeper   | I’m not a clock, but I tell time around the clock. What am I? | A Watch           | A Sun Dial       | A Calendar      | A Watch              |
+| Riddle 32                    | Virtual Playground  | I'm a place for fun, where pixels create a virtual
+
+| Title                       | Hook                 | Body                                                       | Option 1          | Option 2        | Option 3        | Answer                |
+|-----------------------------|----------------------|------------------------------------------------------------|-------------------|-----------------|-----------------|-----------------------|
+| Riddle 1                     | Charging Magic      | I make your phone come to life when you plug me in. What am I? | A Charger          | A Pillow         | A Tree          | A Charger             |
+| Riddle 2                     | Daily Companion     | I have pages but am not a book. I bring the world to your hand. What am I? | A Smartphone      | A Cloud          | A Lamp          | A Smartphone         |
+| Riddle 3                     | Digital Canvas      | I’m a screen, not for a window, but for information's flow. What am I? | A Monitor         | A Painting       | A Door          | A Monitor            |
+| Riddle 4                     | Talking in Code     | I’m a language computers understand, not spoken but written. What am I? | Code              | Spanish          | Whispers        | Code                |
+| Riddle 5                     | Webbed Connection   | I link pages without a chain, connecting information's reign. What am I? | The Internet      | A Spider         | A Phone         | The Internet         |
+| Riddle 6                     | Bit by Bit          | I'm the smallest unit in computing, making up your digital world. What am I? | A Bit             | A Byte           | A Megabyte      | A Bit                |
+| Riddle 7                     | Memory Keeper       | I store what you need, from pictures to thoughts, in my digital hold. What am I? | A Hard Drive      | A Backpack       | A Fridge        | A Hard Drive         |
+| Riddle 8                     | Social Messenger    | I bring messages in a snap, disappearing in a zap. What am I? | Snapchat          | A Messenger      | Smoke Signals   | Snapchat             |
+| Riddle 9                     | Electronic Pet       | I'm a virtual creature, needing no food or shelter. What am I? | A Tamagotchi      | A Goldfish       | A Puppy         | A Tamagotchi         |
+| Riddle 10                    | Capturing Moments   | I freeze time with a click, capturing memories quick. What am I? | A Camera          | A Remote Control | A Clock         | A Camera             |
+| Riddle 11                    | Puzzle Solver        | I'm a search guru, finding answers just for you. What am I? | Google            | A Detective      | A Compass       | Google              |
+| Riddle 12                    | Portable Light      | I brighten your path with a tap, small but lighting the gap. What am I? | A Flashlight      | A Candle         | A Sun           | A Flashlight         |
+| Riddle 13                    | Animated World       | I’m not a movie, but I have scenes. What am I? | A GIF             | A Painting       | A Playground    | A GIF               |
+| Riddle 14                    | E-Reader Companion   | I carry stories, not in paper form, but in a digital norm. What am I? | An E-Reader       | A Bookshelf      | A Library       | An E-Reader          |
+| Riddle 15                    | Virtual Playground  | I’m a place of games, not made of swings and frames. What am I? | A Video Game      | A Playground     | A Movie Theater | A Video Game         |
+| Riddle 16                    | Musical Device       | I'm small and sleek, playing tunes when you seek. What am I? | A Music Player    | A Piano          | A Guitar        | A Music Player       |
+| Riddle 17                    | Information Highway  | I'm a road for data, not made of bricks and mortar. What am I? | The Internet      | A Highway        | A Forest        | The Internet         |
+| Riddle 18                    | Digital Lock         | I keep your secrets with a combination, not a physical location. What am I? | A Password        | A Key            | A Safe          | A Password           |
+| Riddle 19                    | Noise Canceler       | I block out the world with a hum, making silence overcome. What am I? | Noise-Canceling Headphones | A Blanket        | Earplugs        | Noise-Canceling Headphones |
+| Riddle 20                    | Virtual Exploration  | I'm a world inside a screen, where adventures are unforeseen. What am I? | Virtual Reality  | A Treasure Map   | A Board Game    | Virtual Reality      |
+| Riddle 21                    | Connective Threads   | I link you to others with a tap, making communication adapt. What am I? | Social Media      | A String         | A Tapestry      | Social Media         |
+| Riddle 22                    | Electronic Wallet    | I carry no cash, just numbers and data in a flash. What am I? | A Digital Wallet  | A Coin Purse     | A Piggy Bank    | A Digital Wallet     |
+| Riddle 23                    | Information Messenger| I bring news in a second, without using paper reckon. What am I? | Email             | A Carrier Pigeon | A Telegram      | Email               |
+| Riddle 24                    | Portable Office      | I’m a mini workplace, fitting in a briefcase. What am I? | A Laptop          | A Desk           | A File Cabinet  | A Laptop             |
+| Riddle 25                    | Electronic Canvas    | I’m a tablet for creation, replacing paper sensation. What am I? | A Drawing Tablet  | A Canvas         | A Notebook      | A Drawing Tablet     |
+| Riddle 26                    | Digital Assistant    | I answer your questions, no need for human suggestions. What am I? | Siri              | A Butler         | A Teacher       | Siri                |
+| Riddle 27                    | Virtual Marketplace  | I'm an online mall, where goods and services enthrall. What am I? | E-commerce Website | A Supermarket    | A Flea Market   | E-commerce Website   |
+| Riddle 28                    | Digital Identity     | I'm not a card but a unique mark, verifying your online embark. What am I? | Username         | A Passport       | A Library Card  | Username            |
+| Riddle 29                    | App Playground       | I'm a store of apps, not for swings and claps. What am I? | App Store         | A Playground     | A Supermarket   | App Store            |
+| Riddle 30                    | Electronic Recipe    | I hold instructions for meals, without paper or squeals. What am I? | Recipe App        | A Cookbook       | A Chef          | Recipe App          |
+| Riddle 31                    | Digital Timekeeper   | I’m not a clock, but I tell time around the clock. What am I? | A Watch           | A Sun Dial       | A Calendar      | A Watch              |
+| Riddle 32                    | Virtual Playground  | I'm a place for fun, where pixels create a virtual sun. What am I? | Online Games      | A Playground     |

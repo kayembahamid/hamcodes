@@ -1,0 +1,237 @@
+| 1    | Target Identification                      | Identify the target website, e.g., "example.com."                                                   |
+| 2    | WHOIS Lookup                               | Use tools like WHOIS to gather domain registration information.                                      |
+| 3    | Subdomain Enumeration                      | Use tools like Sublist3r to find subdomains, e.g., "subdomain.example.com."                         |
+| 4    | Port Scanning                              | Use Nmap to scan for open ports on the web server.                                                  |
+| 5    | Web Application Scanning                   | Use tools like Nikto to scan for vulnerabilities.                                                   |
+| 6    | Directory Enumeration                      | Use tools like DirBuster to discover hidden directories.                                            |
+| 7    | Spidering                                  | Use tools like Burp Suite to crawl the website and map its structure.                                |
+| 8    | Robots.txt Analysis                        | Check the "robots.txt" file for disallowed directories.                                             |
+| 9    | Error Handling                             | Test for error-based information disclosure.                                                        |
+| 10   | SQL Injection                              | Inject SQL queries into web forms to extract data.                                                  |
+| 11   | Cross-Site Scripting (XSS)                 | Inject malicious scripts into input fields.                                                         |
+| 12   | Command Injection                          | Inject system commands through vulnerable input.                                                    |
+| 13   | Data Exfiltration                          | Extract sensitive data like usernames or passwords.                                                 |
+| 14   | Backdoor Installation                     | Upload a web shell to maintain access.                                                              |
+| 15   | Maintaining Persistence                    | Modify files or configurations for continued access.                                                |
+| 16   | Vulnerability Report                       | Document all findings and potential impact.                                                         |
+| 17   | Risk Assessment                            | Provide a risk rating for each vulnerability.                                                       |
+| 18   | Mitigation Recommendations                | Offer actionable recommendations for fixing vulnerabilities.
+                                 |
+| 19   | Network Topology Mapping                   | Identify the network's structure, IP ranges, and subnets.                                           |
+| 20   | DNS Enumeration                            | Use tools like DNSDumpster to find DNS records.                                                     |
+| 21   | Network Scanning                           | Use Masscan to scan the entire network for open ports.                                              |
+| 22   | Port Scanning                              | Use Nmap to scan for open ports on target systems.                                                  |
+| 23   | Service Enumeration                        | Identify services running on open ports.                                                            |
+| 24   | Vulnerability Scanning                     | Use tools like OpenVAS to scan for vulnerabilities.                                                 |
+| 25   | Banner Grabbing                            | Extract service banners to identify software versions.                                               |
+| 26   | SNMP Enumeration                           | Use SNMPWalk to gather information from SNMP-enabled devices.                                        |
+| 27   | LDAP Enumeration                           | Enumerate LDAP directories for user information.                                                    |
+| 28   | Brute Forcing                              | Use Hydra to perform brute force attacks against authentication services.                            |
+| 29   | Exploiting Weak Credentials                | Attempt to log in using default or weak credentials.                                                |
+| 30   | Exploiting Known Vulnerabilities           | Exploit known vulnerabilities in services or software.                                               |
+| 31   | Privilege Escalation                       | Gain higher levels of access to compromised systems.                                                |
+| 32   | Lateral Movement                           | Move laterally within the network to access other systems.                                           |
+| 33   | Data Exfiltration                          | Extract sensitive data from compromised systems.                                                    |
+| 34   | Penetration Test Report                    | Document all findings and potential impact.                                                         |
+| 35   | Risk Assessment                            | Provide a risk rating for each vulnerability.                                                       |
+| 36   | Remediation Recommendations                | Offer actionable recommendations for fixing vulnerabilities.                                         |
+
+
+| 19   | Authentication Testing                     | Test for weak or default credentials on login pages.                                                |
+| 20   | Authorization Testing                      | Check for insecure direct object references or privilege escalation vulnerabilities.                 |
+| 21   | Session Management Testing                 | Test for session fixation, session hijacking, or session timeout vulnerabilities.                   |
+| 22   | Cross-Site Request Forgery (CSRF) Testing  | Test for CSRF vulnerabilities that could allow unauthorized actions on behalf of a user.             |
+| 23   | Clickjacking Testing                       | Test for UI redressing vulnerabilities that could trick users into clicking on hidden elements.      |
+| 24   | File Upload Testing                        | Test for file upload vulnerabilities that could allow malicious files to be uploaded and executed.   |
+| 25   | SSL/TLS Testing                            | Test for SSL/TLS configuration weaknesses, such as weak ciphers or expired certificates.             |
+| 26   | Business Logic Testing                     | Test for logical flaws in the application's workflows or business processes.                         |
+| 27   | API Testing                                | Test for vulnerabilities in the application's API endpoints, such as injection or authentication flaws. |
+| 28   | Mobile Application Testing                 | Test for vulnerabilities specific to mobile apps, such as insecure data storage or insecure communication. |
+| 29   | Cryptographic Testing                      | Test for weaknesses in cryptographic implementations, such as weak encryption algorithms or key management. |
+| 30   | Error Handling Testing                     | Test for proper error handling to prevent information leakage or potential security risks.           |
+| 31   | Security Headers Testing                   | Test for the presence and effectiveness of security headers, such as Content Security Policy (CSP) or X-Frame-Options. |
+| 32   | Client-Side Security Testing               | Test for client-side vulnerabilities, such as XSS or DOM-based vulnerabilities.                      |
+| 33   | Business Logic Flaws                       | Identify and exploit flaws in the application's business logic to gain unauthorized access or privileges. |
+| 34   | Session Fixation Testing                   | Test for vulnerabilities that could allow an attacker to hijack a user's session.                     |
+| 35   | Remote Code Execution (RCE) Testing        | Test for vulnerabilities that could allow an attacker to execute arbitrary code on the server.        |
+| 36   | Insecure Direct Object References (IDOR) Testing | Test for vulnerabilities that could allow an attacker to access unauthorized resources or data.   |
+| 37   | API Parameter Tampering Testing            | Test for vulnerabilities that could allow an attacker to manipulate API parameters to gain unauthorized access. |
+| 38   | Business Logic Abuse Testing               | Test for abuse of business logic to perform unauthorized actions or access unauthorized resources.    |
+| 39   | Cookie Testing                             | Test for weaknesses in cookie handling, such as insecure storage or transmission.                     |
+| 40   | Backup File Testing                        | Test for the presence of backup files or directories that could expose sensitive information.           |
+| 41   | HTML Injection Testing                     | Test for vulnerabilities that could allow an attacker to inject malicious HTML code into web pages.      |
+| 42   | HTTP Method Testing                        | Test for vulnerabilities related to improper or insecure HTTP methods, such as OPTIONS or TRACE.       |
+| 43   | XML External Entity (XXE) Testing         | Test for vulnerabilities that could allow an attacker to exploit XML external entity processing.       |
+| 44   | Content Spoofing Testing                   | Test for vulnerabilities that could allow an attacker to spoof content or manipulate page content.      |
+| 45   | API Rate Limiting Testing                  | Test for weaknesses in rate limiting mechanisms that could be bypassed or exploited by attackers.     |
+| 46   | GraphQL Testing                            | Test for vulnerabilities specific to GraphQL APIs, such as injection or schema manipulation.          |
+| 47   | Insecure Deserialization Testing          | Test for vulnerabilities that could allow an attacker to exploit insecure deserialization of data.    |
+| 48   | Server-Side Request Forgery (SSRF) Testing | Test for vulnerabilities that could allow an attacker to make unauthorized requests on behalf of the server. |
+| 49   | Server Misconfiguration Testing            | Test for misconfigurations in web server settings, such as directory listing or default files.        |
+| 50   | Server-Side Template Injection (SSTI) Testing | Test for vulnerabilities that could allow an attacker to inject and execute malicious templates on the server. |
+| 51   | Web Cache Poisoning Testing                | Test for vulnerabilities that could allow an attacker to poison web caches and serve malicious content. |
+| 52   | Vulnerable Component Testing               | Test for vulnerabilities in third-party components, such as libraries or plugins used in the application. |
+| 53   | HTML5 Security Testing                     | Test for vulnerabilities specific to HTML5 features, such as web storage or WebSockets.               |
+| 54   | Cross-Origin Resource Sharing (CORS) Testing | Test for misconfigurations in CORS policies that could lead to unauthorized access to resources.  |
+| 55   | WebSockets Testing                         | Test for vulnerabilities related to WebSocket communication, such as injection or authentication bypass. |
+| 56   | Server-Side Inclusion (SSI) Testing        | Test for vulnerabilities that could allow an attacker to include and execute malicious server-side scripts. |
+| 57   | XML Injection Testing                      | Test for vulnerabilities that could allow an attacker to inject malicious XML content into web applications. |
+| 58   | Subdomain Takeover Testing                 | Test for vulnerabilities that could allow an attacker to take control of abandoned subdomains.          |
+| 59   | Server-Side Request Compromise Testing     | Test for vulnerabilities that could allow an attacker to compromise server-side requests.              |
+| 60   | Business Process Testing                   | Test for vulnerabilities in business processes or workflows that could be exploited by attackers.      |
+| 61   | Mobile Backend Testing                     | Test for vulnerabilities in the backend infrastructure supporting mobile applications.                 |
+| 62   | Cryptocurrency Wallet Testing              | Test for vulnerabilities in cryptocurrency wallet applications, such as insecure storage or transaction handling. |
+| 63   | IoT Device Testing                         | Test for vulnerabilities in Internet of Things (IoT) devices and applications.                         |
+| 64   | DNS Hijacking Testing                      | Test for vulnerabilities that could allow an attacker to hijack DNS responses and redirect traffic.    |
+| 65   | OAuth/OIDC Testing                         | Test for vulnerabilities in OAuth and OpenID Connect (OIDC) implementations, such as token leakage or replay attacks. |
+| 66   | Single Sign-On (SSO) Testing               | Test for vulnerabilities in single sign-on implementations, such as token manipulation or bypass.     |
+| 67   | Serverless Security Testing                | Test for vulnerabilities in serverless architectures, such as insecure permissions or function dependencies. |
+| 68   | Voice Assistant Security Testing            | Test for vulnerabilities in voice assistant applications and devices, such as unauthorized access or eavesdropping. |
+| 69   | Cloud Storage Security Testing             | Test for vulnerabilities in cloud storage services, such as misconfigured permissions or data leakage.
+
+ |
+| 70   | WebAssembly (Wasm) Security Testing        | Test for vulnerabilities in WebAssembly (Wasm) applications, such as memory corruption or sandbox escapes. |
+| 71   | Progressive Web App (PWA) Testing          | Test for vulnerabilities specific to Progressive Web Apps (PWAs), such as service worker abuse or offline storage issues. |
+| 72   | Internationalization (i18n) Testing        | Test for vulnerabilities related to internationalization features, such as language injection or encoding issues. |
+| 73   | Browser Security Testing                   | Test for vulnerabilities specific to web browsers, such as sandbox escapes or browser extension vulnerabilities. |
+| 74   | WebRTC Security Testing                    | Test for vulnerabilities in WebRTC implementations, such as information leakage or network attacks.  |
+| 75   | Deep Learning Model Security Testing       | Test for vulnerabilities in deep learning models used by web applications, such as adversarial attacks or model inversion. |
+| 76   | DevSecOps Pipeline Testing                 | Test for vulnerabilities in the DevSecOps pipeline, such as insecure configurations or vulnerable dependencies. |
+| 77   | Digital Rights Management (DRM) Testing    | Test for vulnerabilities in digital rights management (DRM) systems, such as bypass techniques or unauthorized access. |
+| 78   | Fingerprinting Testing                     | Test for vulnerabilities related to device or browser fingerprinting, such as tracking or device identification. |
+| 79   | Geolocation Security Testing               | Test for vulnerabilities related to geolocation features, such as location spoofing or unauthorized access to location data. |
+| 80   | Header Injection Testing                   | Test for vulnerabilities that could allow an attacker to inject malicious headers into HTTP requests or responses. |
+| 81   | HTTP/2 Security Testing                    | Test for vulnerabilities specific to HTTP/2 protocol implementations, such as stream abuse or header manipulation. |
+| 82   | Insecure Data Storage Testing              | Test for vulnerabilities related to insecure storage of sensitive data, such as plaintext storage or insufficient encryption. |
+| 83   | Insecure Transport Testing                 | Test for vulnerabilities related to insecure transmission of data, such as plaintext transmission or lack of encryption. |
+| 84   | Internet of Medical Things (IoMT) Testing  | Test for vulnerabilities in Internet of Medical Things (IoMT) devices and applications, such as medical data exposure or device hijacking. |
+| 85   | JAMstack Security Testing                  | Test for vulnerabilities in JAMstack applications, such as serverless function vulnerabilities or client-side data exposure. |
+| 86   | JWT Security Testing                       | Test for vulnerabilities in JSON Web Tokens (JWTs), such as token tampering or insecure token storage. |
+| 87   | Legacy System Security Testing             | Test for vulnerabilities in legacy systems and applications, such as outdated software or unsupported protocols. |
+| 88   | Messaging Application Security Testing     | Test for vulnerabilities in messaging applications, such as encryption weaknesses or message tampering. |
+| 89   | Microservices Security Testing             | Test for vulnerabilities in microservices architectures, such as API vulnerabilities or insecure service communication. |
+| 90   | Multi-Factor Authentication (MFA) Testing  | Test for vulnerabilities in multi-factor authentication implementations, such as bypass techniques or weak factors. |
+| 91   | Open Redirect Testing                      | Test for vulnerabilities that could allow an attacker to redirect users to malicious or phishing websites. |
+| 92   | Password Policy Testing                    | Test for weaknesses in password policies, such as weak complexity requirements or lack of expiration. |
+| 93   | Physical Security Testing                  | Test for vulnerabilities related to physical security controls, such as unauthorized access or tampering. |
+| 94   | Resource Exhaustion Testing                | Test for vulnerabilities that could lead to denial of service (DoS) attacks, such as CPU or memory exhaustion. |
+| 95   | Reverse Engineering Testing                | Test for vulnerabilities related to reverse engineering of applications, such as code obfuscation or anti-debugging techniques. |
+| 96   | Secure Coding Standards Testing            | Test for adherence to secure coding standards and best practices, such as input validation or output encoding. |
+| 97   | Security Training and Awareness Testing    | Test for effectiveness of security training and awareness programs, such as phishing simulations or social engineering tests. |
+| 98   | Single Page Application (SPA) Testing      | Test for vulnerabilities specific to single page applications (SPAs), such as client-side routing vulnerabilities or data exposure. |
+| 99   | Software Supply Chain Security Testing     | Test for vulnerabilities in the software supply chain, such as insecure dependencies or compromised build systems. |
+| 100  | Threat Modeling                             | Identify and prioritize potential threats to the application based on its architecture and functionality. |
+
+
+| 101  | Wireless Network Testing                   | Test for vulnerabilities in wireless networks, such as weak encryption or rogue access points.        |
+| 102  | Bluetooth Security Testing                 | Test for vulnerabilities in Bluetooth devices and protocols, such as pairing vulnerabilities or eavesdropping. |
+| 103  | Zigbee Security Testing                    | Test for vulnerabilities in Zigbee devices and networks, such as command injection or replay attacks. |
+| 104  | Z-Wave Security Testing                    | Test for vulnerabilities in Z-Wave devices and networks, such as man-in-the-middle attacks or device impersonation. |
+| 105  | RFID/NFC Security Testing                  | Test for vulnerabilities in RFID and NFC systems, such as unauthorized access or data manipulation. |
+| 106  | SCADA/ICS Security Testing                 | Test for vulnerabilities in Supervisory Control and Data Acquisition (SCADA) and Industrial Control Systems (ICS). |
+| 107  | Automotive Security Testing                | Test for vulnerabilities in automotive systems and networks, such as remote code execution or vehicle hijacking. |
+| 108  | Drone Security Testing                     | Test for vulnerabilities in unmanned aerial vehicles (UAVs) and drone systems, such as GPS spoofing or remote takeover. |
+| 109  | Satellite Communication Security Testing   | Test for vulnerabilities in satellite communication systems, such as interception or signal jamming. |
+| 110  | Radio Frequency (RF) Security Testing      | Test for vulnerabilities in radio frequency (RF) systems and protocols, such as signal interception or replay attacks. |
+| 111  | IoT Network Testing                        | Test for vulnerabilities in Internet of Things (IoT)
+
+ networks, such as insecure communication or weak authentication. |
+| 112  | Edge Computing Security Testing            | Test for vulnerabilities in edge computing environments, such as container vulnerabilities or data exposure. |
+| 113  | Cloud Infrastructure Security Testing      | Test for vulnerabilities in cloud infrastructure services, such as misconfigurations or insecure APIs. |
+| 114  | Container Security Testing                 | Test for vulnerabilities in containerized environments, such as image vulnerabilities or insecure configurations. |
+| 115  | Serverless Security Testing                | Test for vulnerabilities in serverless architectures, such as insecure permissions or function dependencies. |
+| 116  | SD-WAN Security Testing                    | Test for vulnerabilities in Software-Defined Wide Area Network (SD-WAN) implementations, such as traffic interception or data leakage. |
+| 117  | Virtual Private Network (VPN) Testing      | Test for vulnerabilities in VPN implementations, such as encryption weaknesses or protocol vulnerabilities. |
+| 118  | Network Access Control (NAC) Testing       | Test for vulnerabilities in network access control systems, such as bypass techniques or misconfigurations. |
+| 119  | Intrusion Detection System (IDS) Testing   | Test for vulnerabilities in intrusion detection systems, such as evasion techniques or false positives. |
+| 120  | Intrusion Prevention System (IPS) Testing  | Test for vulnerabilities in intrusion prevention systems, such as bypass techniques or false positives. |
+| 121  | Firewall Security Testing                  | Test for vulnerabilities in firewall configurations, such as rule misconfigurations or bypass techniques. |
+| 122  | Network Segmentation Testing               | Test for vulnerabilities in network segmentation controls, such as misconfigured VLANs or routing policies. |
+| 123  | Data Loss Prevention (DLP) Testing         | Test for vulnerabilities in data loss prevention systems, such as policy misconfigurations or bypass techniques. |
+| 124  | Web Application Firewall (WAF) Testing     | Test for vulnerabilities in web application firewall configurations, such as rule misconfigurations or bypass techniques. |
+| 125  | VPN Concentrator Security Testing          | Test for vulnerabilities in VPN concentrator configurations, such as encryption weaknesses or authentication bypass. |
+| 126  | VoIP Security Testing                      | Test for vulnerabilities in Voice over Internet Protocol (VoIP) systems, such as eavesdropping or call hijacking. |
+| 127  | Proxy Server Security Testing              | Test for vulnerabilities in proxy server configurations, such as misconfigurations or bypass techniques. |
+| 128  | DNS Security Testing                       | Test for vulnerabilities in Domain Name System (DNS) configurations, such as DNS spoofing or cache poisoning. |
+| 129  | DHCP Security Testing                      | Test for vulnerabilities in Dynamic Host Configuration Protocol (DHCP) configurations, such as rogue DHCP server attacks or lease exhaustion. |
+| 130  | ARP Spoofing Testing                       | Test for vulnerabilities in Address Resolution Protocol (ARP) implementations, such as ARP cache poisoning or man-in-the-middle attacks. |
+| 131  | MAC Spoofing Testing                       | Test for vulnerabilities related to Media Access Control (MAC) address spoofing, such as unauthorized network access or device impersonation. |
+| 132  | VLAN Hopping Testing                       | Test for vulnerabilities related to Virtual Local Area Network (VLAN) hopping attacks, such as VLAN trunk misconfigurations or double tagging. |
+| 133  | SNMP Security Testing                      | Test for vulnerabilities in Simple Network Management Protocol (SNMP) configurations, such as weak community strings or information disclosure. |
+| 134  | SSL/TLS VPN Security Testing               | Test for vulnerabilities in SSL/TLS Virtual Private Network (VPN) implementations, such as weak cipher suites or certificate issues. |
+| 135  | Router Security Testing                    | Test for vulnerabilities in router configurations, such as default credentials or firmware vulnerabilities. |
+| 136  | Switch Security Testing                    | Test for vulnerabilities in switch configurations, such as VLAN hopping or MAC address spoofing. |
+| 137  | Load Balancer Security Testing             | Test for vulnerabilities in load balancer configurations, such as misconfigurations or denial of service (DoS) vulnerabilities. |
+| 138  | WAF Bypass Testing                         | Test for techniques to bypass Web Application Firewall (WAF) protections, such as encoding or evasion techniques. |
+| 139  | Covert Channel Testing                     | Test for covert channels that could be used to exfiltrate data or communicate surreptitiously within the network. |
+| 140  | Redundancy Testing                         | Test for redundant systems or failover mechanisms that could be exploited to disrupt network operations. |
+| 141  | DNSSEC Security Testing                    | Test for vulnerabilities in Domain Name System Security Extensions (DNSSEC) implementations, such as zone tampering or key compromise. |
+| 142  | NTP Security Testing                       | Test for vulnerabilities in Network Time Protocol (NTP) implementations, such as time synchronization attacks or reflection attacks. |
+| 143  | ICMP Security Testing                      | Test for vulnerabilities related to Internet Control Message Protocol (ICMP) configurations, such as ICMP redirect attacks or information disclosure. |
+| 144  | NetBIOS Security Testing                   | Test for vulnerabilities in NetBIOS configurations, such as NULL sessions or SMB vulnerabilities. |
+| 145  | SMTP Security Testing                      | Test for vulnerabilities in Simple Mail Transfer Protocol (SMTP) implementations, such as relay vulnerabilities or email spoofing. |
+| 146  | SNMPv3 Security Testing                    | Test for vulnerabilities specific to SNMP version 3 (SNMPv3), such as authentication bypass or data tampering. |
+| 147  | BGP Security Testing                       | Test for vulnerabilities in Border Gateway Protocol (BGP) configurations, such as route hijacking or prefix poisoning. |
+| 148  | DDoS Protection Testing                    | Test for vulnerabilities in distributed denial of service (DDoS) protection mechanisms, such as resource exhaustion or rate limiting bypass. |
+| 149  | Content Delivery Network (CDN) Security Testing | Test for vulnerabilities in CDN configurations, such as misconfigurations or cache poisoning attacks. |
+| 150  | ICS Protocol Security Testing              | Test for vulnerabilities in Industrial Control System (ICS) protocols, such as Modbus or DNP3, such as protocol abuse or command injection. |
+
+Certainly! Here are more steps for website and network pentesting:
+
+### Website Pentesting:
+
+| Step | Description                                | Example                                                                                            |
+|------|--------------------------------------------|----------------------------------------------------------------------------------------------------|
+| 151  | Clickbait Testing                         | Test for vulnerabilities related to clickbait or misleading links that could lead to phishing or malicious sites. |
+| 152  | Web Browser Compatibility Testing          | Test for vulnerabilities related to browser compatibility issues, such as rendering errors or scripting conflicts. |
+| 153  | WebSocket Security Testing                | Test for vulnerabilities in WebSocket implementations, such as message injection or protocol abuse. |
+| 154  | Insecure Cross-Origin Resource Sharing (CORS) Testing | Test for insecure Cross-Origin Resource Sharing (CORS) configurations that could lead to data leakage or unauthorized access. |
+| 155  | Mobile Device Management (MDM) Security Testing | Test for vulnerabilities in Mobile Device Management (MDM) solutions, such as unauthorized device access or misconfigurations. |
+| 156  | Digital Signature Testing                 | Test for vulnerabilities in digital signature implementations, such as key compromise or algorithm weaknesses. |
+| 157  | Secure Boot Testing                       | Test for vulnerabilities in Secure Boot mechanisms, such as bootloader vulnerabilities or bypass techniques. |
+| 158  | Firmware Security Testing                 | Test for vulnerabilities in firmware images, such as hardcoded credentials or buffer overflows. |
+| 159  | Secure Enclave Testing                    | Test for vulnerabilities in secure enclaves, such as side-channel attacks or memory corruption. |
+| 160  | Platform Security Testing                 | Test for vulnerabilities in platform security features, such as sandbox escapes or privilege escalation. |
+| 161  | Code Signing Testing                      | Test for vulnerabilities in code signing mechanisms, such as certificate expiration or key compromise. |
+| 162  | Binary Analysis Testing                   | Test for vulnerabilities in binary executables, such as buffer overflows or integer overflows. |
+| 163  | Secure Boot Integrity Measurement Architecture (IMA) Testing | Test for vulnerabilities in Secure Boot Integrity Measurement Architecture (IMA) implementations, such as tampering or bypass techniques. |
+| 164  | Trusted Execution Environment (TEE) Testing | Test for vulnerabilities in Trusted Execution Environment (TEE) implementations, such as side-channel attacks or remote code execution. |
+| 165  | Firmware Update Testing                   | Test for vulnerabilities in firmware update mechanisms, such as man-in-the-middle attacks or unauthorized updates. |
+| 166  | Hardware Security Module (HSM) Testing    | Test for vulnerabilities in Hardware Security Module (HSM) implementations, such as key extraction or side-channel attacks. |
+| 167  | Root of Trust Testing                     | Test for vulnerabilities in Root of Trust (RoT) implementations, such as trust anchor compromise or firmware backdoors. |
+| 168  | Hardware Security Testing                 | Test for vulnerabilities in hardware components, such as side-channel attacks or physical tampering. |
+| 169  | Secure Bootchain Testing                  | Test for vulnerabilities in the secure bootchain, such as bootloader vulnerabilities or bootloader injection attacks. |
+| 170  | Peripheral Security Testing               | Test for vulnerabilities in peripheral devices, such as USB exploits or Bluetooth vulnerabilities. |
+| 171  | Hardware Interface Testing                | Test for vulnerabilities in hardware interfaces, such as USB protocol vulnerabilities or DMA attacks. |
+| 172  | Hardware Backdoor Testing                 | Test for the presence of hardware backdoors or hidden functionality in hardware components. |
+| 173  | Hardware Keylogging Testing               | Test for vulnerabilities related to hardware keylogging devices or techniques. |
+| 174  | Hardware Implant Testing                  | Test for the presence of hardware implants or malicious hardware modifications. |
+| 175  | Physical Access Control Testing           | Test for vulnerabilities in physical access control systems, such as badge cloning or lock picking. |
+| 176  | Physical Security Monitoring             | Test for vulnerabilities in physical security monitoring systems, such as camera tampering or blind spots. |
+| 177  | Biometric Authentication Testing         | Test for vulnerabilities in biometric authentication systems, such as spoofing or replay attacks. |
+| 178  | Secure Print Management Testing          | Test for vulnerabilities in secure print management systems, such as unauthorized document access or print job interception. |
+| 179  | Physical Intrusion Detection Testing     | Test for vulnerabilities in physical intrusion detection systems, such as false positives or bypass techniques. |
+| 180  | Secure Hardware Disposal Testing         | Test for vulnerabilities in secure hardware disposal processes, such as data remnants or incomplete erasure. |
+| 181  | Embedded System Security Testing         | Test for vulnerabilities in embedded systems, such as IoT devices or automotive electronics. |
+| 182  | Medical Device Security Testing          | Test for vulnerabilities in medical devices, such as pacemakers or insulin pumps. |
+| 183  | Industrial Control System (ICS) Security Testing | Test for vulnerabilities in industrial control systems, such as SCADA systems or PLCs. |
+| 184  | Smart Grid Security Testing              | Test for vulnerabilities in smart grid systems, such as smart meters or energy management systems. |
+| 185  | Wearable Device Security Testing         | Test for vulnerabilities in wearable devices, such as fitness trackers or smartwatches. |
+| 186  | Network-Attached Storage (NAS) Security Testing | Test for vulnerabilities in network-attached storage devices, such as data leaks or unauthorized access. |
+| 187  | Internet-Connected Toy Security Testing  | Test for vulnerabilities in internet-connected toys and smart toys. |
+| 188  | Home Automation System Security Testing  | Test for vulnerabilities in home automation systems, such as smart locks or security cameras. |
+| 189  | GPS Security Testing                     | Test for vulnerabilities in GPS systems, such as GPS spoofing or signal jamming. |
+| 190  | Automotive Infotainment Security Testing | Test for vulnerabilities in automotive infotainment systems, such as navigation systems or in-car entertainment. |
+| 191  | Voice Assistant Security Testing         | Test for vulnerabilities in voice assistants, such as Amazon Alexa or Google Assistant. |
+| 192  | Virtual Reality (VR) Security Testing    | Test for vulnerabilities in virtual reality systems and devices. |
+| 193  | Augmented Reality (AR) Security Testing  | Test for vulnerabilities in augmented reality systems and devices. |
+| 194  | Drone Security Testing                   | Test for vulnerabilities in drones and unmanned aerial vehicles (UAVs). |
+| 195  | Satellite Communication Security Testing | Test for vulnerabilities in satellite communication systems and devices. |
+| 196  | Mesh Network Security Testing            | Test for vulnerabilities in mesh networking systems and protocols. |
+| 197  | Cloud Security Testing                   | Test for vulnerabilities in cloud computing platforms and services. |
+| 198  | Blockchain Security Testing              | Test for vulnerabilities in blockchain platforms and cryptocurrencies. |
+| 199  | Quantum Computing Security Testing      | Test for vulnerabilities in quantum computing systems and protocols. |
+| 200  | Cryptocurrency Security Testing          | Test for vulnerabilities in cryptocurrency exchanges and wallets. |
+
+
+
